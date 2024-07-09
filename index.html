@@ -28,6 +28,7 @@
         class="flex item-center justify-center space-x-4 pt-4 md:space-x-10 md:absolute top-12 right-10"
       >
         <a href="#projects" class="hover:text-orange-600">Projects</a>
+        <a href="#gallery" class="hover:text-orange-600">Gallery</a>
         <a href="#contact" class="hover:text-orange-600">Contact Me</a>
         <!--Dark/Light mode btn-->
         <button
@@ -63,5 +64,265 @@
         </button>
       </div>
     </header>
+    <!--Intro Section-->
+    <section id="intro">
+      <!--intro container-->
+      <div class="container flex flex-col-reverse mx-auto p-6 lg:flex-row">
+        <!--intro content-->
+        <div class="flex flex-col space-y-10 mb-44 lg:mt-16 lg:w-1/2 xl:mb-52">
+          <h1
+            class="text-4xl font-bold text-center lg:text-6xl lg:max-w-md lg:text-left"
+          >
+            Hello, I'm Bihui
+          </h1>
+          <p class="text-xl text-center text-gray-400 lg:mx-w-md lg:text-left">
+            I'm Bihui, a full stack developer with a background in plant science
+            and international business. I began my career as a plant scientist
+            researching plant physiology then joined a Dutch company that
+            bridges Sino-Dutch businesses.
+          </p>
+          <p
+            class="text-xl text-center text-gray-400 lg:mx-w-md lg:text-left lg:mt-4"
+          >
+            My travels eventually brought me to New Zealand, where I decided to
+            pursue a career change and became a full stack developer. My
+            decision was driven by my curiosity and passion for exploring the
+            unknown. I am fascinated by how technology can be utilized to make
+            life easier and the world a better place 🌟
+          </p>
+        </div>
+        <!--image-->
+        <div class="mb-20 mx-auto md:w-180 lg:mb-0 lg:w-1/2">
+          <img
+            class="lg:w-9/12 lg:mx-auto"
+            src="./images/portfolioPhoto.jpg"
+            alt="portfolio img"
+          />
+        </div>
+      </div>
+    </section>
+    <!--Projects Section-->
+    <section id="projects" class="py-24 bg-gray-100 dark:bg-darkBlue">
+      <div class="container mx-auto px-3">
+        <h2 class="text-4xl mb-6 font-bold text-center">Projects</h2>
+        <p class="max-w-s mx-auto text-center text-gray-400 md:max-w-md">
+          Projects build using front-end technology(including HTML, CSS,
+          TailwindCSS, React.js. JavaScript, TypeScript) and back-end
+          technology(Node.js, Express.js, SQL Database with Knex.js)
+        </p>
+      </div>
+    </section>
+    <!--Individual projects boxes-->
+    <section class="pb-32 bg-gray-100 dark:bg-darkBlue">
+      <div
+        class="relative container flex flex-col items-center max-w-5xl px-10 mx-auto space-y-10 md:flex-row md:space-y-0 md:space-x-7"
+      >
+        <!--Project 1-->
+        <div
+          class="flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:w-1/2"
+        >
+          <!--imgage for project 1-->
+          <div class="flex justify-center">
+            <img src="./images/Grow-Grub_2.png" alt="Grow-Grub logo" />
+          </div>
+          <!--Text-->
+          <h5 class="pt-6 text-xl font-bold">Grow grub</h5>
+          <p class="text-gray-400">
+            An application designed to help you be a better gardener. It
+            provides comprehensive planting instructions for vegetables of your
+            choice, allows you to design your own garden, and offers daily task
+            reminders.
+          </p>
+          <!--Add Github link to it-->
+          <div px-6 pt-6 capitalize>
+            <a
+              href="https://github.com/bihui-sun/Grow-grub"
+              class="block w-1/3 mx-auto py-3 text-white duration-200 border-2 border-orange-500 rounded-lg bg-orange-500 hover:text-orange-400 hover:bg-white"
+              >Github Link</a
+            >
+          </div>
+        </div>
+        <!--Project 2-->
+
+        <div
+          class="flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:w-1/2"
+        >
+          <!--imgage for project 2-->
+          <div class="flex justify-center">
+            <img
+              src="./images/identifier-latest.png"
+              alt="plant-identifier logo"
+            />
+          </div>
+          <!--Text-->
+          <h5 class="pt-6 text-xl font-bold">Plant Identification</h5>
+          <p class="text-gray-400">
+            An application designed to help you identify plants step-by-step,
+            making plant identification fun and easy. Everyone can become an
+            expert by identifying plants based on their key features.
+          </p>
+          <!--Add Github link to it-->
+          <div px-6 pt-6 capitalize>
+            <a
+              href="https://github.com/bihui-sun/plant-identification"
+              class="block w-1/3 mx-auto py-3 text-white duration-200 border-2 border-orange-500 rounded-lg bg-orange-500 hover:text-orange-400 hover:bg-white"
+              >Github Link</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Art Gallery section-->
+    <section id="gallery" class="py-24">
+      <div class="container mx-auto px-3">
+        <h2 class="text-4xl mb-6 font-bold text-center">My Gallery</h2>
+        <p class="max-w-s mx-auto text-center text-gray-400 md:max-w-md">
+          I'm full stack developer, also a botanical illustrator. Here are some
+          of my artworks that I would like to share.
+        </p>
+      </div>
+    </section>
+    <!--Art images-->
+    <section>
+      <div class="flex items-center justify-center">
+        <div class="grid gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+          <!--Image 1-->
+          <div class="relative group">
+            <img src="./images/img1.jpg" alt="artwork" class="w-72" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="flex justify-between w-full">
+                <p class="font-normal text-sm">Fuchsia-watercolor paint</p>
+              </div>
+            </div>
+          </div>
+          <!--Image 2-->
+          <div class="relative group">
+            <img src="./images/img3.jpg" alt="artwork" class="w-72" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="flex justify-between w-full">
+                <p class="font-normal text-sm">Orchid-watercolor paint</p>
+              </div>
+            </div>
+          </div>
+          <!--Image 3-->
+          <div class="relative group">
+            <img src="./images/img5.jpg" alt="artwork" class="w-72" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="flex justify-between w-full">
+                <p class="font-normal text-sm">Sketch-book-watercolor paint</p>
+              </div>
+            </div>
+          </div>
+          <!--Image 4-->
+          <div class="relative group">
+            <img src="./images/img6.jpg" alt="artwork" class="w-72" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="flex justify-between w-full">
+                <p class="font-normal text-sm">Sketch book-watercolor paint</p>
+              </div>
+            </div>
+          </div>
+          <!--Image 5-->
+          <div class="relative group">
+            <img src="./images/img2.jpg" alt="artwork" class="w-72" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="flex justify-between w-full">
+                <p class="font-normal text-sm">Succulent-colored pencil</p>
+              </div>
+            </div>
+          </div>
+          <!--Image 6-->
+          <div class="relative group">
+            <img src="./images/img4.jpg" alt="artwork" class="w-72" />
+            <div
+              class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40"
+            >
+              <div class="flex justify-between w-full">
+                <p class="font-normal text-sm">Kawakawa-Dotted inking</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Contact Me section-->
+    <section id="contact" class="py-24 bg-gray-100 dark:bg-darkBlue">
+      <div class="container mx-auto px-3 my-20">
+        <h2 class="text-4xl mb-6 font-bold text-center">Contact Me</h2>
+        <p class="max-w-s mx-auto text-center text-gray-400 md:max-w-md">
+          Feel free to contact via LinkedIn or Email.
+        </p>
+        <!--Buttons for linked in and email-->
+        <div
+          class="flex flex-col justify-center mx-auto w-1/2 my-10 space-y-6 text-xl text white md:flex-row md:space-y-0 md:space-x-4"
+        >
+          <a
+            href="https://www.linkedin.com/in/bihui-sun-42b2692a6/"
+            class="p-4 px-8 text-white rounded-full shadow-lg bg-orange-500 duration-200 hover:opacity-80"
+            >LinkedIn</a
+          >
+          <a
+            href="mailto:bihui.sun1107@gmail.com"
+            class="p-4 px-8 text-white rounded-full shadow-lg bg-gray-500 duration-200 hover:opacity-80"
+            >Email</a
+          >
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="bg-orange-400">
+      <div
+        class="container flex flex-col items-center space-y-8 md:items-start md:space-y-4"
+      >
+        <!--Menu container-->
+        <div
+          class="flex flex-col items-center space-y-4 mt-9 text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3"
+        >
+          <!--item1-->
+          <div class="h-20 group">
+            <a href="#intro">About</a>
+            <div
+              class="mx-2 group-hover:border-b group-hover:border-blue-50"
+            ></div>
+          </div>
+          <!--Item2-->
+          <div class="h-20 group">
+            <a href="#projects">Projects</a>
+            <div
+              class="mx-2 group-hover:border-b group-hover:border-blue-50"
+            ></div>
+          </div>
+          <!--Item3-->
+          <div class="h-20 group">
+            <a href="#gallery">My Gallery</a>
+            <div
+              class="mx-2 group-hover:border-b group-hover:border-blue-50"
+            ></div>
+          </div>
+          <!--Item4-->
+          <div class="h-20 group">
+            <a href="#contact">Contact Me</a>
+            <div
+              class="mx-2 group-hover:border-b group-hover:border-blue-50"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col items-start justify-between space-y-4 text-gray-500 md:items-end"
+      >
+        &copy; 2024 All Rights Reserved
+      </div>
+    </footer>
   </body>
 </html>
